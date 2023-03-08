@@ -1,0 +1,222 @@
+*{
+      padding: 0;
+      margin: 0 auto;
+      box-sizing: border-box;
+}
+
+.clear{
+      clear: both;
+}
+.wrapper{
+      width: 1089px;
+      border: 2px solid #061f3e;
+}
+
+header{
+      height: 100px;
+      width: 100%;
+      background-color: #294F7C;
+      position: relative;
+      padding: 6px;
+}
+.logo{
+      height: 50px;
+      width: 50px;
+}
+.heading-title{
+      display: inline-block;
+      font-weight: 400;
+      color: #fff;
+      
+}
+.heading-search{
+      display: inline-block;
+      position: absolute;
+      width: 250px;
+      top: 6px;
+      right: 6px;
+}
+.heading-search input{
+      width: 215px;
+      height: 24px;
+      border-radius: 2px;
+      color: #fff;
+      border: none;
+      padding: 2px 4px;
+      background: #061f3e;
+}
+.heading-search input:focus{
+      background: #1b3350;
+}
+.heading-search input::placeholder{
+      color: #ccc;
+}
+.heading-search button{
+      border: none;
+      color: #ccc;
+      height: 24px;
+      border-radius: 2px;
+      padding: 2px 4px;
+      background: #061f3e;
+}
+.heading-nav{
+      position: absolute;
+      bottom: 0;
+      right: 6px;
+}
+.heading-nav li{
+      display: inline-block;
+      padding: 8px 18px;
+      transition: all 0.2s linear;
+      background: #94adff;
+      position: relative;
+}
+.heading-nav li:hover{
+      background:#94adff6c;
+}
+.levels-menu{
+      min-width: 215px;
+}
+.levels-menu:hover ul{
+      display: block;
+}
+.heading-nav li > ul{
+      position: absolute;
+      left: 0;
+      top: 34px;
+      width: 100%;
+      list-style: none;
+      display: none;
+}
+.heading-nav li > ul > li{
+      width: 100%;
+}
+form{
+      font-family: Arial, Helvetica, sans-serif;
+      color: #474747;
+}
+.heading-nav li a{
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      color: #fff;
+}
+
+.contact input[type="text"]{
+      width: 100%;
+}
+textarea{
+      width: 300px;
+}
+
+/* Contact */
+.contact{
+      float: left;
+      width: 30%;
+      padding: 12px;
+}
+.contact > p{
+      margin: 12px 0;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-shadow: 2px 2px 3px rgba(0, 255, 17, 0.855);
+      color: #ff0000;
+      text-align: justify;
+}
+.heading-contact{
+      padding: 12px 0;
+      border-bottom: 2px dotted;
+      margin-left: 12px;
+      margin-top: 36px;
+      width: 60%;
+      color: #474747;
+      font-weight: 400;
+}
+td{
+      padding: 4px 0;
+}
+.message{
+      margin: 12px 0;
+}
+.form-contact{
+      width: 100%;
+}
+.form-contact button{
+      padding: 4px 12px;
+      color: #474747;
+}
+
+table{
+      width: 300px;
+}
+
+/* Information */
+
+.info{
+      float: left;
+      width: 30%;
+      padding-left: 24px;
+}
+.info h2{
+      margin: 22px 0;
+      border-bottom: 2px dotted #ccc;
+      padding-bottom: 12px;
+      color: #474747;
+      font-weight: 400;
+}
+.building{
+      margin-top: 50px;
+      margin-bottom: 25px;
+}
+.info-detail p{
+      line-height: 1.5;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #474747;
+}
+
+
+
+/* Discount & Special */
+.discount{
+      float: right;
+      margin-right: 6px;
+      margin-top: -55px;
+      right: 0;
+      padding: 30px;
+      background-color: #f2f2f2;
+      width: 30%;
+}
+.discount img{
+      width: 100%;
+      margin-top: 12px;
+}
+.discount h2{
+      padding-bottom: 12px;
+      color: #474747;
+      font-weight: 400;
+      border-bottom: 2px dotted #ccc;
+}
+.discount p{
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 12px 0;
+      line-height: 1.2;
+      text-align: justify;
+}
+
+
+/* Footer */
+
+footer{
+      width: 100%;
+      padding-left: 12px;
+      background-color: #1b3350;
+      line-height: 24px;
+      height: 24px;
+}
+
+footer p{
+      color: #fff;
+}
+footer p span{
+      color: #ccc;
+}
